@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.n{
+  background-color: #5c535a;
+  color: white;
+  padding: 5px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  position: absolute;
+    left: 50%;
+}
+
+}
+
+.r{
+  background-color: #5c535a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  position: relative;
+  left: 100px;
+  top: 530px;
+
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  background-color: #5c535a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  right: 0;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #e2a4cd;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #9b8f96;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 30px) {
+  .cancelbtn, .signupbtn {
+     width: 40%;
+  }
+}
+body {
+    background-color: #e2a4cd;
+  }
+  h1 {
+  position: relative;
+  top: 1px;
+  size: 20;
+  background-color: #d8d2d6;
+  text-align: center;
+}
+h2 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+</style>
+
+<body>
+    <h1>الرئيسية</h1>
+    <button onclick="document.getElementById('id01').style.display='block'" class="r" style="width:auto;">القائمة</button>
+    <h2>هدايا موسمية</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa9_ybTvs2l1OA9q9UTZwH98dFI60PRyrV9Q&usqp=CAU" class="center" width="400" height="300">
+    <button onclick="document.getElementById('id01').style.display='block'" class="n" style="width:auto;">المزيد</button>
+    <h2>                          </h2>
+    <h2>نسق باقتك</h2>
+    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSn9Xzf1CVQaLZ2AUb7--rAvpfAGk_-03woQIaAtzt2ItlUINoc0vc3gyV13NYBuwZKOWC2xJrO1mxlMw60Pi01T_cxRBDIaZnB1cBBJOBqCUWDcSedxHyHpg&usqp=CAc" class="center" width="400" height="300">
+    <button onclick="document.getElementById('id01').style.display='block'" class="n" style="width:auto;">المزيد</button>
+   
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="https://cdn.iconscout.com/icon/free/png-512/account-269-866236.png" class="center">
+      <ul>
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#news">الاشعارات</a></li>
+        <li><a href="#contact">اسئلة متكررة</a></li>
+        <li><a href="#about">من نحن</a></li>
+      </ul>
+      
+    <script>
+
+</body>
+</html>
